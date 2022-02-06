@@ -1,0 +1,56 @@
+.form {
+  margin-top: 20px;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  width: 400px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 10px rgba(0, 0, 0, 0.1), 4px 4px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.label {
+  display: block;
+  height: 30px;
+}
+
+.input {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+  color: rgb(6, 14, 131);
+  font-weight: 600;
+  background: transparent;
+  background: rgb(6, 14, 131);
+  background: linear-gradient(
+    0deg,
+    rgb(153, 255, 255) 0%,
+    rgb(247, 247, 247) 100%
+  );
+  line-height: 1.5;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 25px;
+
+  padding: 0;
+  transition: all 0.3s ease;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(153, 255, 255) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}

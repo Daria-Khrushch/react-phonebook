@@ -1,0 +1,31 @@
+.form {
+  padding: 15px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #fff;
+  font-size: 12px;
+  width: 100px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}

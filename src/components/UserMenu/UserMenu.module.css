@@ -1,0 +1,54 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: block;
+  margin-right: 5px;
+
+  width: 50px;
+  box-shadow: inset 1px 2px 2px 0px rgb(255 255 255 / 50%),
+    3px 4px 10px 4px rgb(0 0 0 / 6%), 1px 1px 10px 1px rgb(0 0 0 / 15%);
+  border-radius: 50px;
+}
+
+.name {
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  color: rgb(6, 14, 131);
+  font-weight: 600;
+  background: transparent;
+  background: rgb(6, 14, 131);
+  background: linear-gradient(
+    0deg,
+    rgb(153, 255, 255) 0%,
+    rgb(247, 247, 247) 100%
+  );
+  line-height: 1.5;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 25px;
+
+  padding: 0;
+  transition: all 0.3s ease;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(153, 255, 255) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}

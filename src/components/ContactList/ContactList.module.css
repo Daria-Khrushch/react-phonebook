@@ -1,0 +1,26 @@
+.contactList {
+  width: 350px;
+  padding: 0;
+}
+
+.item {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+}
+.button {
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+.name {
+  padding: 5px 0px;
+  margin: 0;
+}
+.number {
+  margin: 0;
+}
